@@ -13,6 +13,17 @@
 		
 		public function getDepartmentName(){
 			return $this->name;
+
 		}
+
+		class Departement extends Employee
+		{
+			
+			function __construct(argument)
+			{
+				# code...
+			}
+		}
+
 	}
 ?>

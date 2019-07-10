@@ -14,5 +14,14 @@
 		public function getCompanyName(){
 			return $this->name;
 		}
+
+		class Company extends Departement
+		{
+			
+			function __construct(argument)
+			{
+				# code...
+			}
+		}
 	}
 ?>
